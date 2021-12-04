@@ -2,7 +2,7 @@
 body {
   background-color: white;
   padding: 0;
-  margin: 20px;
+  margin: 0;
   font-family: "Poppins";
   overflow-x: hidden;
   justify-content: center;
@@ -26,18 +26,25 @@ body {
   text-align: center;
   border-radius: 10px;
 }
+.Container1 .Box1 .Profile img {
+  padding: 20px;
+  height: 128px;
+  width: 128px;
+  border-radius: 100%;
+}
 .Container1 .Box1 h2 {
+  font-size: 28px;
   margin-top: auto 20px;
   font: 400;
   color: black;
   text-align: center;
 }
 .Container1 .Box1 p {
-  margin-top: 300px;
+  margin-top: 100px;
   justify-content: center;
 }
 .Container2 .Box2 {
-  margin-top: 20px;
+  margin-top: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -92,11 +99,21 @@ footer {
   body {
     overflow-x: hidden;
   }
+  .Container1 h2 {
+    font-size: 20px;
+  }
   .Container1 .Box1 {
     justify-content: center;
     align-items: center;
     height: 372px;
     width: 330px;
+  }
+  .Container1 .Box1 .Profile img {
+    height: 64px;
+    width: 64px;
+  }
+  .Container2 h2 {
+    font-size: 20px;
   }
   .Container1 .Box1 h2 {
     font-size: 16px;
@@ -120,6 +137,9 @@ footer {
     height: 47.85px;
     border-radius: 5px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  .Container3 h2 {
+    font-size: 20px;
   }
   .Container2 .Box2 button a h2 {
     font-size: 13px;
