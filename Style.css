@@ -10,6 +10,7 @@ body {
   display: flex;
 }
 .Container1 h2 {
+  font-size: 32px;
   text-align: center;
   color: black;
   font: 600;
@@ -50,7 +51,8 @@ body {
 .Container2 .Box2 button {
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top: 15px;
+  margin: 28px;
   border: 0;
   width: 400px;
   height: 68px;
@@ -64,6 +66,9 @@ body {
   text-decoration: none;
 }
 .Container2 .Box2 button a h2 {
+  letter-spacing: -3%;
+  font-weight: 600;
+  font-size: 20px;
   text-align: start;
 }
 .Container3 .Box3 {
@@ -93,20 +98,31 @@ footer {
     height: 372px;
     width: 330px;
   }
+  .Container1 .Box1 h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -3%;
+  }
   .Container1 .Box1 p {
-    margin: 10px;
+    margin: 15px;
     font-size: 12px;
+    letter-spacing: 2%;
+    line-height: 18px;
   }
   .Container2 .Box2 {
     height: 330px;
     width: 330px;
   }
   .Container2 .Box2 button {
+    margin-top: 13px;
     background-color: white;
     width: 200px;
     height: 47.85px;
     border-radius: 5px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  .Container2 .Box2 button a h2 {
+    font-size: 13px;
   }
   .Container3 .Box3 {
     height: 330px;
