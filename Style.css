@@ -31,11 +31,15 @@ body {
   color: black;
   text-align: center;
 }
+.Container1 .Box1 p {
+  margin-top: 300px;
+  justify-content: center;
+}
 .Container2 .Box2 {
   margin-top: 20px;
-  text-align: center;
   justify-content: center;
   align-items: center;
+  text-align: center;
   list-style: none;
   width: 500px;
   height: 500px;
@@ -44,16 +48,23 @@ body {
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
 }
 .Container2 .Box2 button {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
   border: 0;
   width: 400px;
   height: 68px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
+  justify-content: space-around;
 }
 .Container2 .Box2 button a {
   list-style: none;
   text-decoration: none;
+}
+.Container2 .Box2 button a h2 {
+  text-align: start;
 }
 .Container3 .Box3 {
   justify-content: center;
@@ -64,6 +75,13 @@ body {
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   background-color: white;
   border-radius: 10px;
+}
+footer {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -3%;
+  font: 36px;
+  line-height: 54px;
 }
 @media (max-width: 600px) {
   body {
