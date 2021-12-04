@@ -1,47 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Poppins:wght@400;600&display=swap");
 body {
-  font-family: "Poppins";
   background-color: white;
-  margin: 0;
   padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  font-family: "Poppins";
 }
 .Container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  grid-gap: 20px;
-  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: white;
 }
 .Box1 {
   height: 600px;
   width: 500px;
-  background-color: white;
-  margin: 0;
-  position: relative;
-  flex-wrap: wrap;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-  margin: auto;
+  margin: 20px auto;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 .Box2 {
-  width: 500px;
   height: 500px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-  margin: 0%;
-  border-radius: 10px;
-}
-.Box3 {
   width: 500px;
-  height: 560px;
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  margin: 20px auto;
+}
+.Box3 {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
 }
 p {
   text-align: center;
   color: black;
-  line-height: 600px;
 }
