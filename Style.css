@@ -9,6 +9,7 @@ body {
   align-items: center;
   display: flex;
   list-style: none;
+  scroll-behavior: smooth;
 }
 .Container1 h2 {
   font-size: 32px;
@@ -74,7 +75,7 @@ body {
 .Container2 .Box2 button {
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  position: relative;
   margin: 28px;
   border: 0;
   width: 400px;
@@ -132,22 +133,22 @@ body {
 .HTML {
   width: 75%;
   background: #6100ff;
-  animation: html 2s;
+  animation: html 8s;
 }
 .UIUX {
   width: 30%;
   background: #ff00d6;
-  animation: uiux 2s;
+  animation: uiux 8s;
 }
 .Js {
   width: 5%;
   background: #002cff;
-  animation: js 2s;
+  animation: js 8s;
 }
 .CPP {
   width: 5%;
   background: #f00;
-  animation: cpp 2s;
+  animation: cpp 8s;
 }
 footer {
   text-align: center;
@@ -186,6 +187,16 @@ footer {
   }
   100% {
     width: 5%;
+  }
+}
+@keyframes Slide_Up {
+  from {
+    transform: translateY(250px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 100%;
   }
 }
 @media (max-width: 600px) {
@@ -239,7 +250,7 @@ footer {
     width: 330px;
   }
   .Container2 .Box2 button {
-    margin-top: 10px;
+    margin-top: 18px;
     background-color: white;
     width: 200px;
     height: 47.85px;
