@@ -28,8 +28,8 @@ body {
 }
 .Container1 .Box1 .Profile img {
   padding: 20px;
-  height: 128px;
-  width: 128px;
+  height: 96px;
+  width: 96px;
   border-radius: 100%;
 }
 .Container1 .Box1 h2 {
@@ -39,8 +39,19 @@ body {
   color: black;
   text-align: center;
 }
+.Container1 .Box1 h4 {
+  color: rgba(0, 0, 0, 0.6);
+}
 .Container1 .Box1 p {
-  margin-top: 100px;
+  padding: 20px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.Container1 .Box1 .Decoration img {
+  margin-bottom: 5px;
+  padding: 90px;
+  width: 64px;
+  height: 64px;
   justify-content: center;
 }
 .Container2 .Box2 {
