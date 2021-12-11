@@ -5,11 +5,11 @@ body {
   margin: 0;
   font-family: "Poppins";
   overflow-x: hidden;
-  justify-content: center;
-  align-items: center;
   display: flex;
   list-style: none;
   scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
 }
 .Container1 h2 {
   font-size: 32px;
@@ -48,8 +48,6 @@ body {
 .Container1 .Box1 p {
   font: 400;
   font-weight: normal;
-  padding: 20px;
-  margin-top: 10px;
   justify-content: center;
   font-size: 20px;
 }
@@ -145,10 +143,10 @@ body {
   background: #002cff;
   animation: js 8s;
 }
-.CPP {
+.reactjs {
   width: 5%;
   background: #f00;
-  animation: cpp 8s;
+  animation: reactjs 8s;
 }
 footer {
   text-align: center;
@@ -181,13 +179,13 @@ footer {
     width: 5%;
   }
 }
-@keyframes cpp {
+@keyframes reactjs {
   0% {
     width: 0%;
   }
   100% {
-    width: 5%;
-  }
+    width: 0;
+    }
 }
 @keyframes Slide_Up {
   from {
@@ -224,7 +222,7 @@ footer {
     font-size: 12px;
   }
   .Container1 .Box1 p {
-    padding: 5px;
+    padding: 20px;
   }
   .Container1 .Box1 .Decoration img {
     width: 32px;
@@ -240,10 +238,13 @@ footer {
     letter-spacing: -3%;
   }
   .Container1 .Box1 p {
-    margin: 15px;
+    margin: 20px;
     font-size: 12px;
     letter-spacing: 2%;
     line-height: 18px;
+  }
+  .Container1 .Box1 img {
+    position: 50%;
   }
   .Container2 .Box2 {
     height: 330px;
