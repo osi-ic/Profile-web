@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Poppins:wght@400;600&display=swap");
 body {
   background-color: white;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 10px;
   font-family: "Poppins";
   overflow-x: hidden;
   display: flex;
@@ -185,7 +185,7 @@ footer {
   }
   100% {
     width: 0;
-    }
+  }
 }
 @keyframes Slide_Up {
   from {
