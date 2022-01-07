@@ -106,4 +106,26 @@ a h6 {
     width: 330px;
     height: 372px;
   }
+  img {
+    height: 64px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .box-2 {
+    width: 330px;
+    height: 372px;
+  }
+  a {
+    margin-bottom: 10px;
+    width: 260px;
+    height: 48px;
+  }
+  a h6 {
+    margin: 5px;
+    padding-top: 5px;
+  }
 }
