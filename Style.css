@@ -110,7 +110,10 @@ a h6 {
     height: 64px;
   }
   h1 {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 12px;
   }
   p {
     font-size: 12px;
@@ -125,7 +128,10 @@ a h6 {
     height: 48px;
   }
   a h6 {
-    margin: 5px;
-    padding-top: 5px;
+    letter-spacing: -3%;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 8px;
+    padding-top: 8px;
   }
 }
