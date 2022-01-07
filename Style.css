@@ -101,5 +101,9 @@ a h6 {
   text-align: center;
   align-items: center;
 }
-@media screen {
+@media (max-width: 900px) {
+  .box-1 {
+    width: 330px;
+    height: 372px;
+  }
 }
