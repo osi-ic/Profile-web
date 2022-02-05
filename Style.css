@@ -14,7 +14,7 @@
 }
 body {
   margin: 20px;
-  background-color: #0e0d0d;
+  background-color: #333131;
 }
 .container-1 {
   font-weight: 600;
@@ -44,12 +44,17 @@ h1 {
 }
 h3 {
   margin-top: 10px;
+  margin-bottom: 25px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 2%;
 }
+hr {
+  width: 200px;
+  margin: 0 auto;
+}
 p {
-  margin-top: 20px;
+  margin-top: 5px;
   padding: 30px;
   text-align: center;
   font-size: 16px;
